@@ -1,0 +1,20 @@
+{
+    "family": "php-modernization-task",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "name": "php-modernization-container",
+            "image": "eboa10/desafio-devops:latest",
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true
+        }
+    ],
+    "requiresCompatibilities": [ "FARGATE" ],
+    "cpu": "256",
+    "memory": "512"
+}
