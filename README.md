@@ -71,6 +71,6 @@ Para monitorar a aplicação em produção, a seguinte stack de ferramentas open
 
 ![Aplicacao rodando](https://github.com/EBOA10/desafio-devops/blob/3ff885c28e698b55dbaa6c4fa7f35a6f14894f45/images/Screenshot_localhost_8080.png?raw=true)
 
-3. Qual e o link para as imagens no registry?
+3. Qual é o link para as imagens no registry?
 
    [Docker Hub - EBOA10](https://hub.docker.com/r/eboa10/desafio-devops/tags)
