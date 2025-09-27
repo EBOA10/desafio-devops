@@ -2,8 +2,10 @@ version: '3.8'
 
 services:
   app:
-    image: eboa10/desafio-devops:3dfddf9
+    image: eboa10/desafio-devops
+    build:
+      context: .
     ports:
-      - 80:80
+      - 8080:80
     container_name: desafio-devops-container
     restart: unless-stopped
